@@ -7,3 +7,8 @@ let attractionType = require('./typesCollection.js');
 
 // attractionType();
 // parkInfo();
+let attractionInfo = require("./attractionCollection.js");
+let areaInfo = require("./AreaCollection.js");
+
+
+
