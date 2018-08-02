@@ -1,32 +1,35 @@
+.area-boxes2
+{
+  border:double;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+.card-title2 {
+  border: solid;
+  margin: auto;
+  padding: 2px;
+  background-color: turquoise;
+  
+}
+.card-body2 {
+  height: auto;
+  width: auto;
+}
+.card-text2 {
+  font-size: .75em;
+  line-height: 1.3;
+}
 #areas {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: salmon;
+  justify-content: center;
 } 
-.area-boxes2
- {
-    border:double;
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 20px;
-  }
-  .card-title2 {
-    border: solid;
-    background-color: turquoise;
-
-  }
-  .card-body2 {
-      /* height: 20rem; */
-      width: auto;
-  }
-  .card-text2 {
-      font-size: .75em;
-      line-height: 1.3;
-  }
 
   
