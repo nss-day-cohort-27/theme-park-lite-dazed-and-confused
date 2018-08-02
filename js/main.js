@@ -9,6 +9,7 @@ let attractionType = require('./typesCollection.js');
 // parkInfo();
 let attractionInfo = require("./attractionCollection.js");
 let areaInfo = require("./AreaCollection.js");
+let welcome = require("./welcomeCollection.js");
 
 
 
