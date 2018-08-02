@@ -10,6 +10,7 @@ let attractionType = require('./typesCollection.js');
 // pull in Area Main
 let parkInfo = require("./parkInfo.js");
 let areaInfo = require("./AreaCollection.js");
+let welcome = require("./welcomeCollection.js");
 
 
 

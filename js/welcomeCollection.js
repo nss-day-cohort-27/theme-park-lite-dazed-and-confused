@@ -1,20 +1,17 @@
-
 //This is where we are pulling our database to and invoking a function so no need to export.
 "use strict";
-console.log("hey girl")
+console.log("hey friend")
 
 
 let db = require('./db-calls.js');
-let typeList = require('./typesList.js');
+let welcomeList = require('./welcomeList.js');
 
 
-db.fetchTypes()
+db.fetchParkInfo()
    .then((result) => {
        console.log(result);
-    typeList(result);
+    welcomeList(result);
     
 });
 
-module.exports = typeList;
-
-
+module.exports = welcomeList;
