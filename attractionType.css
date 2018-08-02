@@ -1,0 +1,14 @@
+
+
+
+#attractionTypeTitle {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+#attractionType {
+    border-style: solid;
+    border-color: goldenrod;
+}
