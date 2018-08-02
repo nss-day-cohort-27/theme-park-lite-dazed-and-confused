@@ -1,13 +1,13 @@
 "use strict";
 
 let db = require("./db-calls");
-let areaList = require("./AreaList");
+let writeToDom = require("./AreaList");
 
-
+let areaList = {}
 db.fetchAreas()
    .then((result) => {
-       console.log(result)
-    areaList(result);
+       areaList= result;
+    writeToDom(areaList);
 });
 
 module.exports = areaList;
