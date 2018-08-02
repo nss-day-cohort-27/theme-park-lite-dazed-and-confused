@@ -1,0 +1,39 @@
+#pleaseWork {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.attractionBoxes {
+    display: flex;
+    border: solid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding: 20px;
+}
+
+.card-body {
+    display: flex;
+    margin: 15px;
+    justify-items: center;
+    background-color: lightgray;
+    align-content: center;
+    align-self: center;
+}
+
+.card {
+    justify-content: center;
+    display: inline-block;
+    height: auto;
+    align-self: auto;
+
+}
+
+.card-title {
+    display: flex;
+    border: solid;
+    padding: 5px;
+    text-align: center;
+}
